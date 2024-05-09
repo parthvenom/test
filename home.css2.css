@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_bar {
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav_bar li {
+    display: inline-block;
+}
+
+.nav_bar li a {
+    padding: 15px;
+}
+
+.nav_bar li a:hover {
+    background: #7d7a7a;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-width: auto;
+}
+
+.content {
+    margin-top: 120px;
+}
+
+.carousel-item img {
+    width: 100vw; 
+    height: auto; 
+    object-fit: cover; 
+filter :brightness(80%);
+
+}
+.box{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 25px;
+
+}
+.box p{
+    text-align: justify;
+}
+
+
